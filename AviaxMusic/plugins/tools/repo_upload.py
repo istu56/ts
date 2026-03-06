@@ -116,7 +116,7 @@ async def gitupload(client, message):
 
         status_out = subprocess.run(["git", "status", "--porcelain"], cwd=final_path, text=True, capture_output=True)
         if status_out.stdout.strip():
-            run(["git", "commit", "-m", "ᴋᴀɴʜᴀ ʙᴏᴛs !!"], cwd=final_path)
+            run(["git", "commit", "-m", "ɪsᴛᴋʜᴀʀ ʙᴏᴛs !!"], cwd=final_path)
         else:
             run(["git", "commit", "--allow-empty", "-m", "ɪsᴛᴋʜᴀʀ ʙᴏᴛs !!"], cwd=final_path)
 
